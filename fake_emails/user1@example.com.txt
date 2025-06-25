@@ -1,4 +1,0 @@
-От: support@local
-Кому: ['user1@example.com']
-Сообщение:
-Ваш код проверки bb22922d-cf9c-411c-a231-ba455ab0120f

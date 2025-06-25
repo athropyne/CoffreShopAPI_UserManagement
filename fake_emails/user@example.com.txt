@@ -1,4 +1,0 @@
-От: support@local
-Кому: ['user@example.com']
-Сообщение:
-Ваш код проверки 585995d3-66ea-4e70-a5e2-6c294c3fe32f
