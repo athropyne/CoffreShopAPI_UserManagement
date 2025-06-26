@@ -15,6 +15,6 @@ class SMTPClient:
         message["Subject"] = subject
         message.set_content(msg)
         try:
-            await aiosmtplib.send(message, hostname="fake_smtp_server_app", port=config.settings.SMTP_SERVER_PORT)
+            await aiosmtplib.send(message, hostname=config.settings.SMTP_SERVER_HOST, port=config.settings.SMTP_SERVER_PORT)
         except aiosmtplib.errors.SMTPConnectError:
             loguru.logger.error(f"Почта не отправлена. Отсутствует соединение с удаленным сервисом\n {message}")
